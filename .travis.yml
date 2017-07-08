@@ -9,7 +9,7 @@ matrix:
       dist: trusty
       sudo: required
       dotnet: 1.0.0-preview2-1-003177
-      mono: none
+      mono: none 
       env: DOTNETCORE=1
 script:
   - chmod +x ./deploy-envs.sh
